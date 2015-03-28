@@ -1,0 +1,82 @@
+/******************************************/
+/***** Written by Taylor Johnson 2006 *****/
+/******************************************/
+
+BODY {
+	margin: 0px;
+	background:url(../images/backgroundWater.jpg) fixed top center;
+}
+A {
+	color:#333333;
+}
+#menu {
+	color:#9D9282;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width:154px;
+	position:absolute;
+	top:0px;
+	z-index:200;
+	left:50%;
+	margin-left:-380px;
+}
+.menuItem {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	cursor:pointer;
+	text-align:center;
+	background:url(../images/menuDivider.gif) no-repeat center right;
+	background-color:#BDA971;
+	padding:5px;
+}
+.menuItemOn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	cursor:pointer;
+	text-align:center;
+	background:url(../images/menuDivider.gif) no-repeat center right;
+	background-color:#333333;
+	padding:5px;
+}
+.menuLink {
+	text-decoration:none;
+	color:#FFFFFF;
+}
+#content {
+	width:591px;
+	position:absolute;
+	top:215px;
+	z-index:101;
+	left:50%;
+	margin-left:-380px;
+}
+.content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height:1.5;
+	color:#333333;
+}
+.contentLink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color:#AE822E;
+	text-decoration:none;
+}
+.eventDate {
+	font-weight:bold;
+	color:#666666;
+}
+#footer {
+	margin-top:20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:#9D9282;
+}
